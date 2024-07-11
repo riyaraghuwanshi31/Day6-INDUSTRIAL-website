@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav bar */
+nav{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(69, 58, 167);
+    color: rgb(245, 240, 240);
+    position: fixed;
+    width: 100%;
+}
+
+
+#heading{
+    font-size: 23px;
+    font-weight: 700;
+    padding-left: 90px;
+}
+
+.left p{
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+
+.right{
+    font-size: 23px;
+    padding-left: 40%;
+}
+
+#color{
+    color: aqua;
+}
+
+
+/* Main page */
+
+
+
+.mainCont{
+    display: flex;
+   background-image: url("bg2.jpg"); 
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+  /*  position: fixed; */
+  width: 100%; 
+  color:rgb(245, 240, 240);
+  
+}
+
+/*left*/ 
+.leftM{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+
+.leftM h2{
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.leftM h1{
+    font-size: 65px;
+}
+
+.leftM p{
+    font-weight: 200;
+    font-size: 40px;
+}
+
+
+
+/*form*/
+
+.rightM{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+}
+
+
+form{
+    background-color: rgb(69, 58, 167);
+    width: 53%;
+    height: 65vh;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px
+}
+
+.row{
+    display: flex;
+    
+    text-align: center;
+}
+
+.row input{
+    width: 95%;
+
+}
+
+input{
+    height: 40px;
+    text-align: center;
+}
+
+#compName input {
+    width: 97.5%;
+}
+
+#compName ,.mess{
+    padding: 5px 0px;
+}
+
+.mess input{
+    width: 97.5%;
+    height: 160px;
+}
+
+.formpart{
+    padding: 5%;
+}
+
+button{
+    background-color:rgb(8, 229, 229);
+    border: none;
+    width: 98%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+form h3{
+    font-size: 30px;
+    font-weight:500;
+    padding-top: 15px; 
+}
+
+
+/* 3div section*/
+
+.div3img{
+    width: 100%;
+}
+
+.div3{
+    display: flex;
+    padding: 3%;
+}
+
+.div3 div{
+    padding: 0% 5%;
+}
+
+.div3 h2, .div3 p{
+    color: rgb(69, 58, 167);
+}
+
+
+/*About us section*/
+
+.aboutus{
+    background-color: rgb(69, 58, 167);
+    text-align: center;
+    padding: 2% 12%;
+    color:rgb(245, 240, 240) ;
+}
+
+#aboutButton{
+    background-color: transparent;
+    border: 2px solid rgb(245, 240, 240) ;
+    padding: 10px;
+    width: 30%;
+    margin: 18px;
+}
+
+
+/* Lower section*/
+
+.lower1, .lower2{
+    display: flex;
+    padding: 0px 10%;
+}
+
+.leftL, .rightL{
+    width: 50%;
+    text-align: center;
+}
+
+.leftL img, .rightL img{
+    width: 100%;
+}
+
+.leftL p , .rightL p{
+    text-align: left;
+    padding: 80px;
+    padding-top: 100px;
+}
+
+.leftL span, .rightL span{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+/* Footer */
+footer{
+    background-color: rgb(69, 58, 167);
+    color: rgb(235, 233, 233) ;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+
+-> 9:30 @ cllg
+-> Shops open hoti hai 11 ya 11:30 tak i think.
+-> What all I want is: Ballons, Photos, Ribbon (50 + 50 + 20).
+-> Photo on glossy paper (16:10): 2 paper are sufficient (12 photos): It will cost 40 to 50 rupees.
+-> Total Money = 370 - 120 = 250.
+-> For cake I have 250.
